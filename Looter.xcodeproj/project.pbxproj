@@ -14,6 +14,15 @@
 		834FE3C72B5A78DD00E4DF3C /* LooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FE3C62B5A78DD00E4DF3C /* LooterTests.swift */; };
 		834FE3D12B5A78DD00E4DF3C /* LooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FE3D02B5A78DD00E4DF3C /* LooterUITests.swift */; };
 		834FE3D32B5A78DD00E4DF3C /* LooterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FE3D22B5A78DD00E4DF3C /* LooterUITestsLaunchTests.swift */; };
+		834FE3E02B5A804A00E4DF3C /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FE3DF2B5A804A00E4DF3C /* AddItemView.swift */; };
+		834FE3E22B5A8AE400E4DF3C /* LootItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FE3E12B5A8AE400E4DF3C /* LootItem.swift */; };
+		834FE3E42B5A986700E4DF3C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FE3E32B5A986700E4DF3C /* Game.swift */; };
+		834FE3F82B5A9EEF00E4DF3C /* Skyrim.png in Resources */ = {isa = PBXBuildFile; fileRef = 834FE3F32B5A9EEF00E4DF3C /* Skyrim.png */; };
+		834FE3F92B5A9EEF00E4DF3C /* EldenRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 834FE3F42B5A9EEF00E4DF3C /* EldenRing.png */; };
+		834FE3FA2B5A9EEF00E4DF3C /* CSGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 834FE3F52B5A9EEF00E4DF3C /* CSGO.png */; };
+		834FE3FB2B5A9EEF00E4DF3C /* DiabloIV.png in Resources */ = {isa = PBXBuildFile; fileRef = 834FE3F62B5A9EEF00E4DF3C /* DiabloIV.png */; };
+		834FE3FC2B5A9EEF00E4DF3C /* Wow.png in Resources */ = {isa = PBXBuildFile; fileRef = 834FE3F72B5A9EEF00E4DF3C /* Wow.png */; };
+		834FE3FE2B5AB79200E4DF3C /* LootDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FE3FD2B5AB79200E4DF3C /* LootDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		834FE3CC2B5A78DD00E4DF3C /* LooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		834FE3D02B5A78DD00E4DF3C /* LooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooterUITests.swift; sourceTree = "<group>"; };
 		834FE3D22B5A78DD00E4DF3C /* LooterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		834FE3DF2B5A804A00E4DF3C /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		834FE3E12B5A8AE400E4DF3C /* LootItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootItem.swift; sourceTree = "<group>"; };
+		834FE3E32B5A986700E4DF3C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		834FE3F32B5A9EEF00E4DF3C /* Skyrim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skyrim.png; sourceTree = "<group>"; };
+		834FE3F42B5A9EEF00E4DF3C /* EldenRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EldenRing.png; sourceTree = "<group>"; };
+		834FE3F52B5A9EEF00E4DF3C /* CSGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CSGO.png; sourceTree = "<group>"; };
+		834FE3F62B5A9EEF00E4DF3C /* DiabloIV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DiabloIV.png; sourceTree = "<group>"; };
+		834FE3F72B5A9EEF00E4DF3C /* Wow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wow.png; sourceTree = "<group>"; };
+		834FE3FD2B5AB79200E4DF3C /* LootDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +112,13 @@
 		834FE3B42B5A78DB00E4DF3C /* Looter */ = {
 			isa = PBXGroup;
 			children = (
+				834FE3E82B5A9D8000E4DF3C /* Img */,
 				834FE3B52B5A78DB00E4DF3C /* LooterApp.swift */,
 				834FE3B72B5A78DB00E4DF3C /* ContentView.swift */,
+				834FE3DF2B5A804A00E4DF3C /* AddItemView.swift */,
+				834FE3FD2B5AB79200E4DF3C /* LootDetailView.swift */,
+				834FE3E12B5A8AE400E4DF3C /* LootItem.swift */,
+				834FE3E32B5A986700E4DF3C /* Game.swift */,
 				834FE3B92B5A78DC00E4DF3C /* Assets.xcassets */,
 				834FE3BB2B5A78DC00E4DF3C /* Preview Content */,
 			);
@@ -125,6 +148,18 @@
 				834FE3D22B5A78DD00E4DF3C /* LooterUITestsLaunchTests.swift */,
 			);
 			path = LooterUITests;
+			sourceTree = "<group>";
+		};
+		834FE3E82B5A9D8000E4DF3C /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				834FE3F52B5A9EEF00E4DF3C /* CSGO.png */,
+				834FE3F62B5A9EEF00E4DF3C /* DiabloIV.png */,
+				834FE3F42B5A9EEF00E4DF3C /* EldenRing.png */,
+				834FE3F72B5A9EEF00E4DF3C /* Wow.png */,
+				834FE3F32B5A9EEF00E4DF3C /* Skyrim.png */,
+			);
+			path = Img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +266,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834FE3F92B5A9EEF00E4DF3C /* EldenRing.png in Resources */,
+				834FE3FC2B5A9EEF00E4DF3C /* Wow.png in Resources */,
 				834FE3BD2B5A78DC00E4DF3C /* Preview Assets.xcassets in Resources */,
+				834FE3FA2B5A9EEF00E4DF3C /* CSGO.png in Resources */,
+				834FE3FB2B5A9EEF00E4DF3C /* DiabloIV.png in Resources */,
+				834FE3F82B5A9EEF00E4DF3C /* Skyrim.png in Resources */,
 				834FE3BA2B5A78DC00E4DF3C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				834FE3B82B5A78DB00E4DF3C /* ContentView.swift in Sources */,
+				834FE3E42B5A986700E4DF3C /* Game.swift in Sources */,
+				834FE3E02B5A804A00E4DF3C /* AddItemView.swift in Sources */,
+				834FE3FE2B5AB79200E4DF3C /* LootDetailView.swift in Sources */,
+				834FE3E22B5A8AE400E4DF3C /* LootItem.swift in Sources */,
 				834FE3B62B5A78DB00E4DF3C /* LooterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
