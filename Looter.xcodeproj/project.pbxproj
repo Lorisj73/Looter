@@ -22,7 +22,9 @@
 		834FE3FA2B5A9EEF00E4DF3C /* CSGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 834FE3F52B5A9EEF00E4DF3C /* CSGO.png */; };
 		834FE3FB2B5A9EEF00E4DF3C /* DiabloIV.png in Resources */ = {isa = PBXBuildFile; fileRef = 834FE3F62B5A9EEF00E4DF3C /* DiabloIV.png */; };
 		834FE3FC2B5A9EEF00E4DF3C /* Wow.png in Resources */ = {isa = PBXBuildFile; fileRef = 834FE3F72B5A9EEF00E4DF3C /* Wow.png */; };
-		834FE3FE2B5AB79200E4DF3C /* LootDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FE3FD2B5AB79200E4DF3C /* LootDetailView.swift */; };
+		83C9D5112B5FBFAE00C5AA6A /* LooterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C9D5102B5FBFAE00C5AA6A /* LooterDetailView.swift */; };
+		83C9D5132B5FCA0A00C5AA6A /* LootRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C9D5122B5FCA0A00C5AA6A /* LootRow.swift */; };
+		83C9D5152B5FCB2700C5AA6A /* LootInformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C9D5142B5FCB2700C5AA6A /* LootInformations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +63,9 @@
 		834FE3F52B5A9EEF00E4DF3C /* CSGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CSGO.png; sourceTree = "<group>"; };
 		834FE3F62B5A9EEF00E4DF3C /* DiabloIV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DiabloIV.png; sourceTree = "<group>"; };
 		834FE3F72B5A9EEF00E4DF3C /* Wow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wow.png; sourceTree = "<group>"; };
-		834FE3FD2B5AB79200E4DF3C /* LootDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootDetailView.swift; sourceTree = "<group>"; };
+		83C9D5102B5FBFAE00C5AA6A /* LooterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooterDetailView.swift; sourceTree = "<group>"; };
+		83C9D5122B5FCA0A00C5AA6A /* LootRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootRow.swift; sourceTree = "<group>"; };
+		83C9D5142B5FCB2700C5AA6A /* LootInformations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootInformations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +119,11 @@
 				834FE3E82B5A9D8000E4DF3C /* Img */,
 				834FE3B52B5A78DB00E4DF3C /* LooterApp.swift */,
 				834FE3B72B5A78DB00E4DF3C /* ContentView.swift */,
+				83C9D5142B5FCB2700C5AA6A /* LootInformations.swift */,
+				83C9D5122B5FCA0A00C5AA6A /* LootRow.swift */,
 				834FE3DF2B5A804A00E4DF3C /* AddItemView.swift */,
-				834FE3FD2B5AB79200E4DF3C /* LootDetailView.swift */,
 				834FE3E12B5A8AE400E4DF3C /* LootItem.swift */,
+				83C9D5102B5FBFAE00C5AA6A /* LooterDetailView.swift */,
 				834FE3E32B5A986700E4DF3C /* Game.swift */,
 				834FE3B92B5A78DC00E4DF3C /* Assets.xcassets */,
 				834FE3BB2B5A78DC00E4DF3C /* Preview Content */,
@@ -297,12 +303,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83C9D5152B5FCB2700C5AA6A /* LootInformations.swift in Sources */,
 				834FE3B82B5A78DB00E4DF3C /* ContentView.swift in Sources */,
+				83C9D5132B5FCA0A00C5AA6A /* LootRow.swift in Sources */,
 				834FE3E42B5A986700E4DF3C /* Game.swift in Sources */,
 				834FE3E02B5A804A00E4DF3C /* AddItemView.swift in Sources */,
-				834FE3FE2B5AB79200E4DF3C /* LootDetailView.swift in Sources */,
 				834FE3E22B5A8AE400E4DF3C /* LootItem.swift in Sources */,
 				834FE3B62B5A78DB00E4DF3C /* LooterApp.swift in Sources */,
+				83C9D5112B5FBFAE00C5AA6A /* LooterDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

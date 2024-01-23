@@ -67,32 +67,7 @@ struct LootDetailView: View {
                 }
             }.padding()
             List{
-                Section{
-                    HStack{
-                        if let coverName = item.game.coverName, let image = UIImage(named: coverName) {
-                            Image(uiImage: image)
-                                .resizable()
-                                .frame(width: 50, height: 58)
-                                .cornerRadius(4)
-                        } else {
-                            Image(systemName: "rectangle.slash")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 30, height: 58)
-                                .cornerRadius(4)
-                                .background(Color(.gray).gradient.opacity(0.4))
-                                .opacity(0.4)
-                        }
-                        Text(item.game.name).bold()
-                    }
-                    Text("In-game: \(item.name)")
-                    Text("Puissance (ATQ): \(item.attaStrength ?? 0)")
-                    Text("Possédé(s): \(item.quantity)")
-                    Text("Rarete: \(item.rarity.rawValue)")
-                }
-            header:{
-                Text(verbatim: "Informations")
-            }
+                LootInformations(item: item)
             }
         }
     }
@@ -103,3 +78,5 @@ struct LootDetailView_Previews: PreviewProvider {
         LootDetailView(item: LootItem(quantity: 2, name: "Épée du Désespoir", type: .dagger, rarity: .unique, attaStrength: 4, game: availableGames[5]))
     }
 }
+
+
