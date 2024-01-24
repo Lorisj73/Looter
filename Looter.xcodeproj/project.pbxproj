@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8333E24A2B615ED800BCAE63 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333E2492B615ED800BCAE63 /* Onboarding.swift */; };
+		8333E24C2B6160CE00BCAE63 /* OnBoardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333E24B2B6160CE00BCAE63 /* OnBoardingPageView.swift */; };
+		8333E24E2B6160DF00BCAE63 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8333E24D2B6160DF00BCAE63 /* OnBoardingView.swift */; };
 		834FE3B62B5A78DB00E4DF3C /* LooterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FE3B52B5A78DB00E4DF3C /* LooterApp.swift */; };
 		834FE3B82B5A78DB00E4DF3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834FE3B72B5A78DB00E4DF3C /* ContentView.swift */; };
 		834FE3BA2B5A78DC00E4DF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834FE3B92B5A78DC00E4DF3C /* Assets.xcassets */; };
@@ -46,7 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8333E2492B615ED800BCAE63 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		8333E24B2B6160CE00BCAE63 /* OnBoardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPageView.swift; sourceTree = "<group>"; };
+		8333E24D2B6160DF00BCAE63 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		834FE3B22B5A78DB00E4DF3C /* Looter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Looter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		834FE3B52B5A78DB00E4DF3C /* LooterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooterApp.swift; sourceTree = "<group>"; };
 		834FE3B72B5A78DB00E4DF3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,7 +123,8 @@
 				834FE3E82B5A9D8000E4DF3C /* Img */,
 				834FE3B52B5A78DB00E4DF3C /* LooterApp.swift */,
 				834FE3B72B5A78DB00E4DF3C /* ContentView.swift */,
-				8333E2492B615ED800BCAE63 /* Onboarding.swift */,
+				8333E24B2B6160CE00BCAE63 /* OnBoardingPageView.swift */,
+				8333E24D2B6160DF00BCAE63 /* OnBoardingView.swift */,
 				83C9D5142B5FCB2700C5AA6A /* LootInformations.swift */,
 				83C9D5122B5FCA0A00C5AA6A /* LootRow.swift */,
 				834FE3DF2B5A804A00E4DF3C /* AddItemView.swift */,
@@ -306,9 +309,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8333E24A2B615ED800BCAE63 /* Onboarding.swift in Sources */,
+				8333E24C2B6160CE00BCAE63 /* OnBoardingPageView.swift in Sources */,
 				83C9D5152B5FCB2700C5AA6A /* LootInformations.swift in Sources */,
 				834FE3B82B5A78DB00E4DF3C /* ContentView.swift in Sources */,
+				8333E24E2B6160DF00BCAE63 /* OnBoardingView.swift in Sources */,
 				83C9D5132B5FCA0A00C5AA6A /* LootRow.swift in Sources */,
 				834FE3E42B5A986700E4DF3C /* Game.swift in Sources */,
 				834FE3E02B5A804A00E4DF3C /* AddItemView.swift in Sources */,

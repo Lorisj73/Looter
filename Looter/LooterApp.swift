@@ -8,16 +8,18 @@
 import SwiftUI
 
 @main
+
+
 struct LooterApp: App {
     
     // Ici utiliser un @AppStorage pour stocker ce booléen entre les lancements de l'application
-    @AppStorage var isOnboardingDone: Bool = false
+    @AppStorage("isOnboardingDone") var isOnboardingDone: Bool = false
     var body: some Scene {
         WindowGroup {
             if isOnboardingDone {
                 ContentView()
             } else {
-                // Onboarding
+                OnBoardingView()
             }
             
         }
