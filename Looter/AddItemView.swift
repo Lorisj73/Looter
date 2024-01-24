@@ -62,8 +62,6 @@ struct AddItemView: View {
                         Spacer()
                         Text(verbatim: type.rawValue)
                     }
-                    
-                    
                     Picker("Type \(type.rawValue)", selection: $type) {
                         ForEach(ItemType.allCases ,id: \.self) { type in
                             Text(String(describing: type.rawValue).capitalized)
