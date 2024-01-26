@@ -12,6 +12,7 @@ import SwiftUI
 struct OnBoardingPageView: View {
     let page: Page
     @AppStorage("isOnboardingDone") var isOnboardingDone: Bool?
+    @Binding var currentStep: Int
     var body: some View {
         VStack{
             Spacer()
@@ -30,26 +31,34 @@ struct OnBoardingPageView: View {
                 .background(page.bgColor)
                 .clipShape(Circle())
             Spacer()
-            Text(page.description).multilineTextAlignment(.center)
+            Text(page.description).multilineTextAlignment(.center).font(.custom(
+                "AmericanTypewriter",
+                fixedSize: 15))
             Spacer()
             Button(action: {
                 if page.buttonText == "Commencer"{
                     isOnboardingDone = true
                 }
                 else {
-                    // Faut passer à la page suivante
+                    currentStep += 1
                 }
 
             }, label: {
                 Text(page.buttonText)
             })
             .buttonStyle(.borderedProminent)
-            .background(page.bgColor)
+            .tint(page.bgColor)
+            .font(.custom(
+                    "AmericanTypewriter",
+                    fixedSize: 20))
             Spacer()
         }
     }
 }
 
-#Preview {
-    OnBoardingPageView(page: Page(title: "Gerer ses loot", description: "Oui tu peux ajouter des loots c'est simpa (wow et diablo > aux autres jeux)", image: "skateboard", bgColor: Color.cyan, buttonText: "Suivant"))
-}
+//#Preview {
+//    OnBoardingPageView(page: Page(title: "Gerer ses loot", description: "Oui tu peux ajouter des loots c'est simpa (wow et diablo > aux autres jeux)", image: "skateboard", bgColor: Color.brown, buttonText: "Suivant", tag: 1), currentStep: 1)
+//        .preferredColorScheme(.dark)
+//}
+//
+
